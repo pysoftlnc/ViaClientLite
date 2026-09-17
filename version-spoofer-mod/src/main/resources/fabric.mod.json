@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "version-spoofer",
+	"version": "${version}",
+	"name": "Version Spoofer",
+	"description": "Adds a draggable button to the server list menu to spoof your Minecraft version",
+	"authors": [
+		"Developer"
+	],
+	"contact": {
+		"homepage": "https://github.com/example/version-spoofer"
+	},
+	"license": "MIT",
+	"icon": "assets/version-spoofer/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.example_versionspoofer.VersionSpooferClient"
+		]
+	},
+	"mixins": [
+		"version-spoofer.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

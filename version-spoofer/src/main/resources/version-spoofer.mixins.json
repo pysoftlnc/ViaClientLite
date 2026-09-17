@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "com.example.versionspoofer.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"client": [
+		"MultiplayerScreenMixin",
+		"HandshakeC2SPacketMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
